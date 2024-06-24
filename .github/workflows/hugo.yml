@@ -30,7 +30,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with Hugo
-        working-directory: ./public
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
